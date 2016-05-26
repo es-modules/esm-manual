@@ -14,10 +14,7 @@
     "autoload": {
         "psr-4": {
             "Esm\\Manual\\": "src/"
-        },
-        "classmap": [
-            "./Module.php"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": { "Esm\\Manual\\Test\\": "test/" }
