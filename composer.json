@@ -1,0 +1,23 @@
+{
+    "name": "es-modules/esm-manual",
+    "description": "ESM Manual",
+    "authors": [
+        {
+            "name": "Damon Smith",
+            "email": "damon.es.modules@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "easy-system/es-framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Esm\\Manual\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Esm\\Manual\\Test\\": "test/" }
+    },
+    "minimum-stability": "dev"
+}
