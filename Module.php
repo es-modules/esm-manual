@@ -7,8 +7,10 @@
  *
  * @author  Damon Smith <damon.es.modules@gmail.com>
  */
+namespace Esm\Manual;
 
-/*
- * For compatibility with PSR-4.
- */
-require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'Module.php';
+use Es\Modules\AbstractModule;
+
+class Module extends AbstractModule
+{
+}
